@@ -1,0 +1,76 @@
+.bodyOrange {
+  background-color: orange;
+}
+
+.HSH1 {
+  color: gold;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+  text-align: center;
+  color: gold;
+}
+
+button {
+  border-style: solid;
+  border-radius: 10%;
+  padding: 2%;
+  box-sizing: initial;
+  margin-right: auto;
+  position: relative;
+}
+
+.square {
+  margin-top: 6%;
+  position: absolute;
+  height: 20em;
+  width: 20em;
+  background-color: red;
+  border-radius: 0%;
+}
+.squareGreen {
+  margin-top: 6%;
+  position: absolute;
+  height: 20em;
+  width: 20em;
+  background-color: green;
+  border-radius: 0%;
+margin-left: -2%;
+margin-top: -2%;
+}
+.circle {
+  position: sticky;
+  height: 20em;
+  width: 20em;
+  background-color: blue;
+  border-radius: 50%;
+}
+.margins {
+    margin: 2%;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+.padding  {
+  padding: 2%;
+  background-color: teal;
+
+}
+.squareGradient {
+  margin-top: 6%;
+  position: absolute;
+  height: 20em;
+  width: 20em;
+  background: linear-gradient(30deg, rgba(14,0,255,1) 0%, rgba(99,9,121,1) 44%, rgba(255,0,0,1) 100%);
+  border-radius: 0%;
+}
+.squareShadow {
+  margin-top: 6%;
+  position: absolute;
+  height: 20em;
+  width: 20em;
+background-color: red;
+  border-radius: 0%;
+  box-shadow: 20px 20px 11px 5px #3900FF;
+}
