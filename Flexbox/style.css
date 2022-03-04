@@ -1,3 +1,6 @@
-.body {
-    background-color: aqua;
+body {
+    margin: 0;
+}
+#main {
+    flex-flow: row nowrap;
 }

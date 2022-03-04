@@ -7,7 +7,7 @@
   text-align: center;
 }
 
-.p {
+p {
   font-family: verdana;
   font-size: 20px;
   text-align: center;
@@ -61,7 +61,7 @@ margin-top: -2%;
   margin-top: 6%;
   position: absolute;
   height: 20em;
-  width: 20em;
+  width: 60em;
   background: linear-gradient(30deg, rgba(14,0,255,1) 0%, rgba(99,9,121,1) 44%, rgba(255,0,0,1) 100%);
   border-radius: 0%;
 }
