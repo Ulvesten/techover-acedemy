@@ -22,12 +22,12 @@ body {
   margin: auto;
 }
 
-.topSection {
+.leftSection {
   padding: 30px;
   width: 50%;
 }
 
-.bottomSection {
+.rightSection {
   width: 50%;
   padding-top: 50px;
   padding-right: 20px;
@@ -145,7 +145,7 @@ input[type="number"] {
   top: 22px;
 }
 
-.bottomSection {
+.rightSection {
   background-color: hsl(183, 100%, 15%);
   border: none;
   border-radius: 20px;
