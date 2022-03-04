@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: quantico, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Quantico, sans-serif;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 2.2em;
+}
+.top-nav-bar {
+  padding: 1em;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: solid 2px black;
+}
+.nav-socials {
+  gap: 0.5em;
+  align-items: center;
+  display: flex;
+}
+.main-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+}
+
+.main-image {
+  display: block;
+}
+.main-image img {
+    height: 500px;
+}
+.main-image-text {
+  display: block;
+  padding: 2em;
+  font-family: Quantico, sans-serif;
+
+}
+.main-image-text p {
+    margin-left: 0.em;
+    margin-right: 1em;
+    margin-bottom: 0.5em;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+button {
+    border: solid 1px black; 
+    border-radius: 6px; 
+    transition: border-radius 150ms; 
+    width: 128px;
+    padding: 8px 0px;
+    background: black;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    font-family: Quantico, sans-serif;
+}
+button.btn {
+    background: white;
+    color: black;
+}
+button:hover {
+    border-radius: 15px;
+}
+.work {
+    scroll-margin-top: 100px;
+}
+
+.work-title {
+    text-align: center; 
+    font-size: 36px;
+    line-height: 40px; 
+    font-weight: 700; 
+    margin-bottom: 12px;
+}
+
+.work-subtitle {
+    color: #000000; 
+    padding: 0px 80px 5px 80px; 
+    max-width: 896px; 
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.chips-wrapper {
+    display: flex;
+    gap: 8px; 
+    justify-content: center;
+    margin: 8px 0px; 
+    padding: 0px 12px; 
+}
+
+.chip {
+    border-radius: 9999px; 
+    padding: 4px 12px; 
+    border: solid 3px black; 
+    font-size: 1.2em;
+}
