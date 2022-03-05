@@ -28,6 +28,7 @@ h2 {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 2px black;
+  background-color: white;
 }
 .nav-socials {
   gap: 0.5em;
