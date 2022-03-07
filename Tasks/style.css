@@ -1,0 +1,15 @@
+* {
+    margin: 0%;
+}
+
+.parent {
+    height: 100px;
+    width: 100vw;
+    background-color: lightcoral;
+}
+.child {
+    height: 100%;
+    width: 20%;
+    background-color: blueviolet;    
+    position: absolute;
+}
