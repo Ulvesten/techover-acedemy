@@ -178,6 +178,11 @@ button.btn {
   cursor: pointer;
   font-family: Quantico, sans-serif;
 }
+.footer {
+  text-align: center;
+  background: rgba(138, 131, 131, 0.521);
+  padding: 1em;
+}
 
 /* Animations */
 
