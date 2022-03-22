@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Fredagens JS Challenge</title>
+        <style>
+            .animation_cube {
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+                position: relative;
+                left: 0%;
+                margin-bottom: 5px;
+                transition: all 1s;
+            }
+
+            .animation_cube_moved {
+                left: 100%;
+                transform: translateX(-100%);
+                background-color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <input type="color" value="#000" class="colorInput" />
+        <button class="btn">Klicka här för att ändra kvadraterna</button>
+        <div class="animation_cube"></div>
+        <div class="animation_cube"></div>
+        <div class="animation_cube"></div>
+        <div class="animation_cube"></div>
+        <div class="animation_cube"></div>
+        <script src="script.js"></script>
+    </body>
+</html>

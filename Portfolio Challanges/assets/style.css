@@ -197,7 +197,7 @@ button:hover {
  @media screen and (max-width: 724px) {
   p {
       font-size: 12px;
-      line-height: 16px; 
+      line-height: 20px; 
   }
 
   .main-section {
@@ -241,5 +241,16 @@ button:hover {
       padding-left:  0;
       line-height: 18px;
   }
+  .project img {
+    height: 100%;
+  }
 }
 /* Responsiveness - end*/
+
+@media screen and (max-width: 724px) {
+  h2 {
+      font-size: 12px;
+      line-height: 20px; 
+      font-size: 1.5em;
+  }
+}
