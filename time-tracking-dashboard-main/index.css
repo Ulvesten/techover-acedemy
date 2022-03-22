@@ -1,0 +1,235 @@
+*{
+  margin: 0;
+  padding:0;
+}
+
+html,body {
+  min-height: 100vh;
+}
+body{
+  background-color: hsl(226, 43%, 10%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+
+  width:800px;
+  display: flex;
+}
+.menu{
+
+  border-radius: 10px;
+  height: 20rem;
+  width: 10rem;
+  background-color: hsl(235, 46%, 20%);
+}
+
+.profile {
+  background-color: hsl(246, 80%, 60%);
+  padding: 15px;
+  border-radius: 10px;
+  height: 12rem;
+  border-color: white;
+  border-width: 0.5rem;
+  color: white;
+}
+.tracks {
+  
+  flex-grow: 1;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  
+}
+.profile img {
+  height: 3em;
+  width: 3em;
+  border: 0.3em solid white;
+  border-radius: 100%;
+}
+
+.calender {
+  padding-top: 0.3em;
+  padding-left: 0.5em;
+
+}
+.calender p {
+  padding: 5%;
+  font-size: 0.7em;
+  font-family: Rubik;
+  color: hsl(235, 45%, 61%);
+
+}
+.track-itmes {
+  background-color: hsl(235, 46%, 20%);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.track-itmes__content {
+  height: 75%;
+  background-color: hsl(235, 46%, 20%);
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid hsl(235, 46%, 20%);
+  position: relative;
+  top: 2px;
+  right: 2px;
+}
+
+.orange {
+  background-color: hsl(15, 100%, 70%);
+  background-image: url(./images/icon-work.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+
+}
+
+.blue {
+  background-color: hsl(195, 74%, 62%);
+  background-image: url(./images/icon-play.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.pink{
+  background-color: hsl(348, 100%, 68%);
+  background-image: url(./images/icon-study.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+.green {
+  background-color: hsl(145, 58%, 55%);
+  background-image: url(./images/icon-exercise.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.purple {
+  background-color: hsl(264, 64%, 52%);
+  background-image: url(./images/icon-social.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+.yellow {
+  background-color:hsl(43, 84%, 65%);
+  background-image: url(./images/icon-self-care.svg);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 20%;
+}
+
+
+.track-itmes .work {
+  display: flex;
+  
+  
+}
+
+.top-item-work {
+  background-color: orange;
+  padding:15px;
+  border-radius: 10px;
+}
+
+.report {
+  margin-top: 2em;
+  font-family: Rubik;
+  font-size: 10px;
+}
+.name {
+  font-size: 1.8em;
+  font-family: Rubik;
+}
+p:hover {
+  color: white;
+}
+img.purple {
+  height: 2em;
+}
+.tracks .play,.self-care,.study,.exercise,.social,.work {
+  color: white;
+  font-family: Rubik;
+  margin-inline: 10%;
+  margin-block: 4%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tracks .play-text,.work-text,.self-care-text,.social-text,.study-text,.exercise-text {
+  color: white;
+  font-family: Rubik;
+  font-size: 2.2em;
+  margin: 8%;
+  
+}
+.tracks .previous-play,.previous-exercise,.previous-play,.previous-social,.previous-social-care,.previous-study,.previous-work {
+  margin: 0em;
+  margin-top: 5%;
+  font-size: 0.3em;
+  color:  hsl(235, 45%, 61%);
+}
+
+.track-itmes__content:hover {
+  background-color:  hsl(237, 39%, 35%);
+  border: 2px solid hsl(237, 39%, 35%);
+
+}
+@media screen {
+  
+}
+@media screen and (max-width: 815px) {
+  body {
+    align-items: baseline;
+  }
+  .container {
+    flex-direction: column;
+    padding: 0.5em;
+    display: flex;
+  }
+  .menu {
+    width: 100%;
+    display: flex;
+    z-index: 2;
+    flex-wrap: wrap;
+    height: 14em;
+  }
+  .profile {
+    width: 100%;
+    height: 60%;
+  }
+  .calender {
+    flex: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    position: relative;
+    top: -0.1em;
+
+  }
+  .tracks {
+    flex-direction: column;
+    display: flex;
+    margin: 0;
+    margin-top: 1em;
+    height: 2em;
+  }
+  .track-itmes__content .work-text ,.play-text ,.study-text,.exercise-text,.social-text,.self-care-text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+}

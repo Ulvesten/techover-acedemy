@@ -2,79 +2,140 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href="./index.css">
+
+  <title> Time Tracker Dashboard </title>
 </head>
-<body>
+ <body>
+   <div class="container">
+     <div class="menu">
+       <div class="profile">
+         <img src="./images/image-jeremy.png" alt="image-jeremy">
+         <p class="report"> Report for</p>
+         <p class="name">Jeremy Robson</p>
+       </div>
+       <div class="calender">
+         <p>Daily</p>
+         <p>Weekly</p>
+         <p>Monthly</p>
+       </div>
 
-  Report for
-  Jeremy Robson
+     </div>
+     <div class="tracks">
+       
+       <div class="track-itmes orange">
+         <div class="track-itmes__content">
+          <div class="work">
+            <p> Work</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="work-text">
+          <p>32hrs</p>
+          <div class="previous-work">
+          <p>
+            Last Week - 36hrs
+          </p>
+        </div>
+        </div>
+         </div>
+         
+         </div>
+         
+       <div class="track-itmes blue">
+        <div class="track-itmes__content">
+          <div class="play">
+            <p>Play</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="play-text">
+            <p> 10hrs</p>
+            <div class="previous-play">
+            <p>
+              Last Week - 8hrs
+            
+            </p>
+          </div>
+          </div>
+        </div>
+       </div>
+       <div class="track-itmes pink">
+        <div class="track-itmes__content">
+          <div class="study">
+            <p>Study</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+          <div class="study-text">
+            <p> 4hrs</p>
+            <div class="previous-study">
+            <p>
+              Last Week - 7hrs
+            
+            </p>
+          </div>
+          </div>
+        </div>
+       </div>
+       <div class="track-itmes green">
+         <div class="track-itmes__content">
+          <div class="exercise">
+            <p>Exercise</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+            <div class="exercise-text">
+              <p>4hrs</p>
+            
+              <div class="previous-exercise">
+                <p>Last Week - 5hrs</p>
+              </div>
+         </div>
+         
+        
+           
+         </div>
+       </div>
+       <div class="track-itmes purple">
+         <div class="track-itmes__content">
+          <div class="social">
+            <p>Social</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+            <div class="social-text">
+              <p>5hrs</p>
+              <div class="previous-social">
+                 <p>Last Week - 10hrs</p>
+              </div>
+         </div>
+         
+           
+         </div>
+       </div>
+       <div class="track-itmes yellow">
+         <div class="track-itmes__content">
+          <div class="self-care">
+            <p>Self-Care</p>
+            <img src="images/icon-ellipsis.svg" alt="">
+          </div>
+            <div class="self-care-text">
+              <p>2hrs</p>
+              <div class="previous-social-care">
+                <p>Last Week - 2hrs</p>
+              </div>
+         </div>
+         
+           
+         </div>
+       </div>
 
-  Daily
-  Weekly
-  Monthly
+       </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+     </div>
+   </div>
+  </body>
 </html>
