@@ -1,0 +1,111 @@
+body {
+  font-family: "Quantico", sans-serif;
+  /* background-image: url(./images/Background.jpg); */
+  background-image: url(./images/nedladdning.jpg);
+  background-size: cover;
+  background-position: 62%;
+  background-repeat: no-repeat;
+  margin: 0;
+  
+}
+.MainApp {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0.6)
+  );
+}
+.search-bar {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 10px;
+  margin-inline: auto;
+  margin-top: 10vh;
+  width: 40%;
+  text-align: center;
+  height: 20%;
+
+}
+.search-bar input {
+  max-width: 50vh;
+  border: none;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 0.3em;
+  text-align: center;
+  border-bottom: 0.1em solid #2d112a;
+  font-size: 20px;
+  font-family: "Quantico", sans-serif;
+  transition: 200ms ease-in;
+  
+
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+.search-bar input:focus {
+  background-color: rgba(255, 255, 255, 1.8);
+  border-bottom: 0.1em solid #2d112a;
+  
+}
+main {
+  padding-inline: 20%;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  align-items: center;
+  text-align: center;
+}
+.city {
+  font-size: 2.7em;
+  font-weight: 500;
+  margin-bottom: 0.1em;
+  max-width: 100%;
+  white-space: nowrap;
+  text-shadow: 2px 3px black;
+}
+.date {
+  font-size: 1em;
+}
+.WheaterNow {
+  font-size: 7em;
+  margin-block: 0%;
+  font-weight: 400;
+  font-style: italic;
+  content: "&#176";
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  text-shadow: 2px 3px black;
+}
+.WheaterNow p#WheaterNowDegreesSymbol {
+  font-size: 35px;
+  font-style: italic;
+}
+
+p {
+  margin: 0;
+}
+.WhetherNowWord {
+    font-size: 40px;
+    margin-top: 0;
+
+}
+.WheaterHighLow {
+    font-size: 1em;
+    margin-block: 0%;
+    font-weight: 400;
+    font-style: italic;
+    content: "&#176";
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    
+  }
