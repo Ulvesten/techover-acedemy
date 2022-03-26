@@ -5,6 +5,7 @@ baseurl: "https://api.openweathermap.org/data/2.5/"
 
 const searchbar = document.querySelector('.searchbar');
 searchbar.addEventListener('keypress',setQuery);
+getResults("Malmö")
 
 function setQuery(evt) {
 if(evt.keyCode == 13){
